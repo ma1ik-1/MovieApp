@@ -1,0 +1,463 @@
+{
+	"info": {
+		"_postman_id": "df7b5c65-42de-4cc8-b062-1d7585053e4e",
+		"name": "TMDB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "974755"
+	},
+	"item": [
+		{
+			"name": "movies",
+			"item": [
+				{
+					"name": "popular",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base-url}}/movie/popular?api_key={{api-key}}&language=en&page=1&region=GB",
+							"host": [
+								"{{base-url}}"
+							],
+							"path": [
+								"movie",
+								"popular"
+							],
+							"query": [
+								{
+									"key": "api_key",
+									"value": "{{api-key}}"
+								},
+								{
+									"key": "language",
+									"value": "en"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "region",
+									"value": "GB"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "top_rated",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base-url}}/movie//top_rated?api_key={{api-key}}&language=en&page=1&region=GB",
+							"host": [
+								"{{base-url}}"
+							],
+							"path": [
+								"movie",
+								"",
+								"top_rated"
+							],
+							"query": [
+								{
+									"key": "api_key",
+									"value": "{{api-key}}"
+								},
+								{
+									"key": "language",
+									"value": "en"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "region",
+									"value": "GB"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "now_playing",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base-url}}/movie//now_playing?api_key={{api-key}}&language=en&page=1&region=GB",
+							"host": [
+								"{{base-url}}"
+							],
+							"path": [
+								"movie",
+								"",
+								"now_playing"
+							],
+							"query": [
+								{
+									"key": "api_key",
+									"value": "{{api-key}}"
+								},
+								{
+									"key": "language",
+									"value": "en"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "region",
+									"value": "GB"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "upcoming",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base-url}}/movie//upcoming?api_key={{api-key}}&language=en&page=1&region=GB",
+							"host": [
+								"{{base-url}}"
+							],
+							"path": [
+								"movie",
+								"",
+								"upcoming"
+							],
+							"query": [
+								{
+									"key": "api_key",
+									"value": "{{api-key}}"
+								},
+								{
+									"key": "language",
+									"value": "en"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "region",
+									"value": "GB"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "similar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base-url}}/movie/526896/similar?api_key={{api-key}}&language=en&page=1&region=GB",
+							"host": [
+								"{{base-url}}"
+							],
+							"path": [
+								"movie",
+								"526896",
+								"similar"
+							],
+							"query": [
+								{
+									"key": "api_key",
+									"value": "{{api-key}}"
+								},
+								{
+									"key": "language",
+									"value": "en"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "region",
+									"value": "GB"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "details",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base-url}}/movie/634649?api_key={{api-key}}&language=en&page=1&region=GB",
+							"host": [
+								"{{base-url}}"
+							],
+							"path": [
+								"movie",
+								"634649"
+							],
+							"query": [
+								{
+									"key": "api_key",
+									"value": "{{api-key}}"
+								},
+								{
+									"key": "language",
+									"value": "en"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "region",
+									"value": "GB"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "images",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base-url}}/movie/634649/images?api_key={{api-key}}&language=en&page=1&region=GB",
+							"host": [
+								"{{base-url}}"
+							],
+							"path": [
+								"movie",
+								"634649",
+								"images"
+							],
+							"query": [
+								{
+									"key": "api_key",
+									"value": "{{api-key}}"
+								},
+								{
+									"key": "language",
+									"value": "en"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "region",
+									"value": "GB"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Person",
+			"item": [
+				{
+					"name": "popular",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base-url}}/person/popular?api_key={{api-key}}&language=en&page=1&region=GB",
+							"host": [
+								"{{base-url}}"
+							],
+							"path": [
+								"person",
+								"popular"
+							],
+							"query": [
+								{
+									"key": "api_key",
+									"value": "{{api-key}}"
+								},
+								{
+									"key": "language",
+									"value": "en"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "region",
+									"value": "GB"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "TV",
+			"item": [
+				{
+					"name": "popular",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base-url}}/tv/popular?api_key={{api-key}}&language=en&page=1&region=GB",
+							"host": [
+								"{{base-url}}"
+							],
+							"path": [
+								"tv",
+								"popular"
+							],
+							"query": [
+								{
+									"key": "api_key",
+									"value": "{{api-key}}"
+								},
+								{
+									"key": "language",
+									"value": "en"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "region",
+									"value": "GB"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Search",
+			"item": [
+				{
+					"name": "search-movie",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{base-url}}/search/movie?api_key={{api-key}}&query=spider%20man&include_adult=false&language=en-US&page=1",
+							"host": [
+								"{{base-url}}"
+							],
+							"path": [
+								"search",
+								"movie"
+							],
+							"query": [
+								{
+									"key": "api_key",
+									"value": "{{api-key}}"
+								},
+								{
+									"key": "query",
+									"value": "spider%20man"
+								},
+								{
+									"key": "include_adult",
+									"value": "false"
+								},
+								{
+									"key": "language",
+									"value": "en-US"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Genres",
+			"item": [
+				{
+					"name": "movie_list",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base-url}}/genre/movie/list?api_key={{api-key}}&language=en",
+							"host": [
+								"{{base-url}}"
+							],
+							"path": [
+								"genre",
+								"movie",
+								"list"
+							],
+							"query": [
+								{
+									"key": "api_key",
+									"value": "{{api-key}}"
+								},
+								{
+									"key": "language",
+									"value": "en"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "configuration",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base-url}}/configuration?api_key={{api-key}}",
+					"host": [
+						"{{base-url}}"
+					],
+					"path": [
+						"configuration"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "{{api-key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

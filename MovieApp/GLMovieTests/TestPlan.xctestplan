@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "2751A163-CC6F-4FF9-B675-113B77969E50",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:GLMovie.xcodeproj",
+        "identifier" : "A1B89DD02A2149280068F05C",
+        "name" : "GLMovieTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:GLNetworking",
+        "identifier" : "GLNetworkingTests",
+        "name" : "GLNetworkingTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:StyleKit",
+        "identifier" : "StyleKitTests",
+        "name" : "StyleKitTests"
+      }
+    }
+  ],
+  "version" : 1
+}
